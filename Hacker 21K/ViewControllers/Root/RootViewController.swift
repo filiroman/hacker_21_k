@@ -8,11 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class RootViewController: UIViewController {
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    self.view.backgroundColor = .lightGray
     // Do any additional setup after loading the view, typically from a nib.
   }
 

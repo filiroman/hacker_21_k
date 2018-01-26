@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bDp-kf-KzR">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--WorkViewController-->
+        <scene sceneID="5YY-z7-tLg">
+            <objects>
+                <viewController storyboardIdentifier="work_vc" title="WorkViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mBe-TM-Ocb" customClass="WorkViewController" customModule="Hacker_21K" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HBb-6O-Iwg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="9fK-8c-mux"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Work" image="work" id="bvu-tj-1VO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nxC-9Z-ORW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2330" y="200"/>
+        </scene>
+        <!--PCViewController-->
+        <scene sceneID="r4f-5X-iBO">
+            <objects>
+                <tableViewController storyboardIdentifier="PCViewController" title="PCViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="HNt-bj-rN1" customClass="PCViewController" customModule="Hacker_21K" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="5KS-r3-VYM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="HNt-bj-rN1" id="t8V-ae-MrA"/>
+                            <outlet property="delegate" destination="HNt-bj-rN1" id="8rZ-SM-dbK"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="PC" image="pc" id="3A0-z3-wnX"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fUm-95-nJj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2329" y="868"/>
+        </scene>
+        <!--SkillsViewController-->
+        <scene sceneID="WtM-KB-SP6">
+            <objects>
+                <viewController storyboardIdentifier="skills_vc" title="SkillsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fOL-oZ-jeR" customClass="SkillsViewController" customModule="Hacker_21K" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IiQ-8l-u6d">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="UbF-yc-D7n"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Skills" image="skills" id="qKo-SO-P12"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nNw-S5-EAf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2329" y="1549"/>
+        </scene>
+        <!--MainInfoViewController-->
+        <scene sceneID="eLT-jm-B71">
+            <objects>
+                <viewController storyboardIdentifier="main_info_vc" title="MainInfoViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hcp-vF-qQn" customClass="MainInfoViewController" customModule="Hacker_21K" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oMj-km-clw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="WS0-Xf-7cQ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Profile" image="profile" id="kHm-01-MCo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9m2-4A-KYW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2330" y="-465"/>
+        </scene>
+        <!--MenuViewController-->
+        <scene sceneID="R9X-HJ-WhW">
+            <objects>
+                <viewController storyboardIdentifier="MenuViewController" title="MenuViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bDp-kf-KzR" customClass="MenuViewController" customModule="Hacker_21K" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q35-cc-hVe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1hl-2r-rB8" customClass="HKButton" customModule="Hacker_21K" customModuleProvider="target">
+                                <rect key="frame" x="85" y="526" width="205" height="64"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="1hl-2r-rB8" secondAttribute="height" multiplier="205:64" id="3aP-HH-5C4"/>
+                                </constraints>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <segue destination="Eaz-VQ-HWn" kind="show" id="4B6-oN-hPm"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hacker Simulator v.1.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F7a-C3-FXH">
+                                <rect key="frame" x="16" y="303.5" width="343" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="F7a-C3-FXH" secondAttribute="height" multiplier="343:80" id="OoM-4N-feH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NXs-XV-j2x" firstAttribute="bottom" secondItem="1hl-2r-rB8" secondAttribute="bottom" constant="77" id="DFO-k7-9md"/>
+                            <constraint firstItem="1hl-2r-rB8" firstAttribute="leading" secondItem="NXs-XV-j2x" secondAttribute="leading" constant="85" id="SdZ-Me-Ieo"/>
+                            <constraint firstItem="NXs-XV-j2x" firstAttribute="trailing" secondItem="F7a-C3-FXH" secondAttribute="trailing" constant="16" id="bEC-u5-ICQ"/>
+                            <constraint firstItem="NXs-XV-j2x" firstAttribute="trailing" secondItem="1hl-2r-rB8" secondAttribute="trailing" constant="85" id="fRE-hM-YKY"/>
+                            <constraint firstItem="F7a-C3-FXH" firstAttribute="leading" secondItem="NXs-XV-j2x" secondAttribute="leading" constant="16" id="sSs-V9-akV"/>
+                            <constraint firstItem="F7a-C3-FXH" firstAttribute="centerY" secondItem="NXs-XV-j2x" secondAttribute="centerY" id="yxh-CR-nWe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NXs-XV-j2x"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eQg-jm-V70" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-108" y="986.35682158920542"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="CEU-yZ-Gfv">
+            <objects>
+                <tabBarController id="Eaz-VQ-HWn" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wUe-lw-6tk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="hcp-vF-qQn" kind="relationship" relationship="viewControllers" id="O60-cB-VEG"/>
+                        <segue destination="HNt-bj-rN1" kind="relationship" relationship="viewControllers" id="8ZY-tv-tvV"/>
+                        <segue destination="mBe-TM-Ocb" kind="relationship" relationship="viewControllers" id="BHl-G5-Qkf"/>
+                        <segue destination="fOL-oZ-jeR" kind="relationship" relationship="viewControllers" id="ENL-lE-FgR"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hGg-W8-XuR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="849" y="988"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pc" width="32" height="32"/>
+        <image name="profile" width="32" height="32"/>
+        <image name="skills" width="32" height="32"/>
+        <image name="work" width="32" height="32"/>
+    </resources>
+</document>
